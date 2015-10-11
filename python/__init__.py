@@ -13,17 +13,8 @@ pylab.load = numpy.loadtxt
 import healpy
 
 #flipper specific
-
-import utils
-import flipperDict
-import fftTools
-import liteMap
-import prewhitener
-import flTrace
 import astLib
-import astLib.astWCS
-import astLib.astCoords
-import mtm
-
+import astLib.astWCS, astLib.astCoords
+from . import utils, flipperDict, fftTools, liteMap, prewhitener, flTrace, mtm
 
 pylab.load  = numpy.loadtxt
