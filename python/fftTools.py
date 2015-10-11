@@ -18,7 +18,7 @@ import pickle
 import sys, os
 from utils import *
 import flTrace
-import pyfits
+import astropy.pyfits as pyfits
 taperDir = os.environ["FLIPPER_DIR"] + os.path.sep + "tapers"
 from matplotlib import colors
 import time

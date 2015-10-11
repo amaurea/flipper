@@ -8,7 +8,7 @@ import os, sys, copy
 import numpy, scipy
 import pylab
 import copy
-import pyfits
+import astropy.pyfits as pyfits
 import astLib
 from utils import *
 from fftTools import fftFromLiteMap
